@@ -1,15 +1,15 @@
 # Ferrum Edge
 
-**High-performance edge infrastructure, built with Rust.**
+**High-performance infrastructure, built with Rust.**
 
-Ferrum Edge is an open-source edge node designed for speed, safety, and simplicity. It serves as a unified **proxy**, **API gateway**, and **AI gateway** — giving teams a single, lightweight runtime to route, secure, and observe traffic at the edge.
+Ferrum Edge is an open-source edge node designed for speed, safety, and simplicity. It serves as a unified **proxy**, **Mesh capable**, **API gateway**, and **AI gateway** — giving teams a single, lightweight runtime to route, secure, and observe traffic.
 
 ---
 
 ### Why Ferrum Edge?
 
 - **Rust-native performance** — Near-zero overhead with memory safety guarantees. No garbage collector, no runtime surprises.
-- **Unified gateway** — Proxy, API gateway, and AI gateway in one binary. Route traditional API traffic and LLM inference requests through the same control plane.
+- **Unified gateway** — Proxy, Mesh, API gateway, and AI gateway in one binary. Route traditional API traffic and LLM inference requests through the same control plane.
 - **Edge-first design** — Built to run close to your users — on bare metal, in containers, or at CDN PoPs — with minimal resource footprint.
 - **AI-ready** — First-class support for routing, load balancing, and observing requests to AI/LLM providers.
 
