@@ -19,9 +19,9 @@ Website: [ferrumedge.com](https://ferrumedge.com)
 
 ### License
 
-These projects are source-available under the
+These projects are copyright Ferrum Edge LLC and source-available under the
 [PolyForm Noncommercial License 1.0.0](https://polyformproject.org/licenses/noncommercial/1.0.0).
-Commercial use requires a separate license; see each repository's license files.
+Commercial use requires a separate license from Ferrum Edge LLC; see each repository's license files.
 
 ### Contributing
 
