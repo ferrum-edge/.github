@@ -31,12 +31,17 @@ Don't include live credentials, private keys, or tokens in a report.
 ## What happens next
 
 We aim to acknowledge a report within **5 business days**. We'll keep you
-informed through triage, the fix, and the release. Fixes are published through
-GitHub Security Advisories on the affected repository. We credit reporters
-unless you ask us not to.
+informed through triage, the fix, and its release or deployment. For a public
+repository, the fix is published as a GitHub Security Advisory on that
+repository. GitHub doesn't offer advisories for private repositories, so for
+those we coordinate the fix and disclosure with you by email. We credit
+reporters unless you ask us not to.
 
 ## Supported versions
 
 Unless a repository's own policy says otherwise, security fixes land on its
-default branch and ship in its next published release. Older releases don't
-receive backports. Upgrade to the newest release to get a fix.
+default branch. A repository that publishes releases ships the fix in its next
+release; older releases don't receive backports, so upgrade to the newest
+release to get it. A continuously deployed project, such as the
+ferrumedge.com website, gets the fix when the patched default branch is
+deployed.
