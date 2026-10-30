@@ -14,7 +14,7 @@ Website: [ferrumedge.com](https://ferrumedge.com)
 | [ferrum-foundry](https://github.com/ferrum-edge/ferrum-foundry) | Admin UI for managing and observing a Ferrum Edge gateway. | [Released](https://github.com/ferrum-edge/ferrum-foundry/releases) |
 | [ferrum-nexus](https://github.com/ferrum-edge/ferrum-nexus) | Multi-user developer portal in front of Ferrum Edge: API catalog, accounts, approvals, and audit history. | [Released](https://github.com/ferrum-edge/ferrum-nexus/releases) |
 | [ferrum-edge-git-forge-ops](https://github.com/ferrum-edge/ferrum-edge-git-forge-ops) | GitOps template for managing gateway configuration through pull requests with GitHub Actions. | In development; no supported release yet |
-| [ferrum-anvil](https://github.com/ferrum-edge/ferrum-anvil) | Desktop and command-line API client for requests, tests, and load tests. | Pre-release; not yet available |
+| [ferrum-anvil](https://github.com/ferrum-edge/ferrum-anvil) | Desktop and command-line API client for requests, tests, and load tests. | [Unsigned preview](https://github.com/ferrum-edge/ferrum-anvil/releases); installers are not code-signed |
 | [ferrum-alloy](https://github.com/ferrum-edge/ferrum-alloy) | Rust toolkit for production Axum services, with Ferrum Edge tracing integration. | Pre-release; not published to crates.io |
 
 ### License
