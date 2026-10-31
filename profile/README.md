@@ -16,6 +16,7 @@ Website: [ferrumedge.com](https://ferrumedge.com)
 | [ferrum-edge-git-forge-ops](https://github.com/ferrum-edge/ferrum-edge-git-forge-ops) | GitOps template for managing gateway configuration through pull requests with GitHub Actions. | In development; no supported release yet |
 | [ferrum-anvil](https://github.com/ferrum-edge/ferrum-anvil) | Desktop and command-line API client for requests, tests, and load tests. | [Unsigned preview](https://github.com/ferrum-edge/ferrum-anvil/releases); installers are not code-signed |
 | [ferrum-alloy](https://github.com/ferrum-edge/ferrum-alloy) | Rust toolkit for production Axum services, with Ferrum Edge tracing integration. | Pre-release; not published to crates.io |
+| [ferrum-contracts](https://github.com/ferrum-edge/ferrum-contracts) | Versioned wire contracts (JSON Schemas, vocabularies, fixtures) shared by the products. | [Released](https://github.com/ferrum-edge/ferrum-contracts/releases) |
 
 ### License
 
