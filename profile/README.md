@@ -17,6 +17,7 @@ Website: [ferrumedge.com](https://ferrumedge.com) · [Install guides](https://fe
 | [ferrum-alloy](https://github.com/ferrum-edge/ferrum-alloy) | Toolkit for Rust API services on Axum, built to run behind Ferrum Edge. | [v0.1.0](https://github.com/ferrum-edge/ferrum-alloy/releases/tag/v0.1.0) (Git tag only; not on crates.io) | Supports Edge v0.9.20 and v0.9.19 |
 | [ferrum-anvil](https://github.com/ferrum-edge/ferrum-anvil) | Desktop and command-line API testing client. | [0.1.9](https://github.com/ferrum-edge/ferrum-anvil/releases/tag/anvil-v0.1.9) security release; unsigned preview installers | — |
 | [ferrum-edge-git-forge-ops](https://github.com/ferrum-edge/ferrum-edge-git-forge-ops) | GitOps workflow for managing Ferrum Edge configuration through pull requests. | No release yet; use from source | — |
+| [ferrum-migration](https://github.com/ferrum-edge/ferrum-migration) | Offline CLI that converts Kong, NGINX, Traefik, Envoy, and Istio ingress configuration into Ferrum Edge resources, settings, and a migration report; anything it cannot reproduce safely is refused or reported. | No release yet; v0.1.0 in review ([PR #1](https://github.com/ferrum-edge/ferrum-migration/pull/1)) | — (output tested with Edge v0.9.21) |
 
 The table distinguishes published release versions from documented Edge pairings.
 Check each project's release notes before pairing it with a different gateway version.
