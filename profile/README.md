@@ -24,17 +24,22 @@ Check each project's release notes before pairing it with a different gateway ve
 
 ### 1.0 status
 
-No 1.0.0 of any project is published yet; the releases above stay the supported ones until each 1.0.0 is published.
-ferrum-edge `main` is prepared as 1.0.0 (no prerelease tags) and is published when its release is dispatched; upgrading
+As of 2026-11-27, no 1.0.0 of any project is published; the releases above stay the supported ones until each 1.0.0 is
+published. ferrum-edge `main` is prepared as 1.0.0 (no prerelease tags). The owner's dispatch starts its production release,
+and 1.0.0 is published once the release validation gate and the production build and publish workflow succeed; upgrading
 from 0.9.x rebuilds and restores every database ([Upgrading to 1.0.0](https://github.com/ferrum-edge/ferrum-edge/blob/main/docs/upgrade_guide.md#upgrading-to-100)).
 `contracts-edge-1.0.0` is then cut from the Edge release commit, and Foundry, Nexus, Alloy, Anvil and GitForgeOps each pin
-both and release 1.0.0 (for GitForgeOps its first release, after a human acceptance run). ferrum-migration stays 0.x as a
-preview. Candidates and what each waits on: [ferrumedge.com/releases#v1-candidates](https://ferrumedge.com/releases#v1-candidates).
+both and release 1.0.0 (for GitForgeOps its first release, after a human acceptance run). Anvil 1.0.0 also waits on signed
+macOS and Windows installers and their clean-install acceptance ([release checklist](https://github.com/ferrum-edge/ferrum-anvil/blob/main/docs/release.md#owner-checklist-turning-signing-on),
+[ferrum-anvil#2](https://github.com/ferrum-edge/ferrum-anvil/issues/2)); until then its installers stay an unsigned preview.
+ferrum-migration stays 0.x as a preview. The other candidates and what each waits on are listed at
+[ferrumedge.com/releases#v1-candidates](https://ferrumedge.com/releases#v1-candidates). This section and the table are
+refreshed as each product publishes.
 
 ### Get started
 
 - **Gateway:** download a binary or pull `ferrumedge/ferrum-edge` from the
-  [v0.9.21 release](https://github.com/ferrum-edge/ferrum-edge/releases/tag/v0.9.21) (checksums included), then follow the
+  [latest published release](https://github.com/ferrum-edge/ferrum-edge/releases/latest) (checksums included), then follow the
   [ferrum-edge README](https://github.com/ferrum-edge/ferrum-edge/blob/main/README.md).
 - **Foundry:** read [Upgrading](https://github.com/ferrum-edge/ferrum-foundry/blob/v0.5.6/docs/release-notes/v0.5.6.md#upgrading)
   and the [compatibility record](https://github.com/ferrum-edge/ferrum-foundry/blob/v0.5.6/docs/compatibility.json) before deploying.
