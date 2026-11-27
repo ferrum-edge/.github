@@ -22,6 +22,15 @@ Website: [ferrumedge.com](https://ferrumedge.com) · [Install guides](https://fe
 The table distinguishes published release versions from documented Edge pairings.
 Check each project's release notes before pairing it with a different gateway version.
 
+### 1.0 status
+
+No 1.0.0 of any project is published yet; the releases above stay the supported ones until each 1.0.0 is published.
+ferrum-edge `main` is prepared as 1.0.0 (no prerelease tags) and is published when its release is dispatched; upgrading
+from 0.9.x rebuilds and restores every database ([Upgrading to 1.0.0](https://github.com/ferrum-edge/ferrum-edge/blob/main/docs/upgrade_guide.md#upgrading-to-100)).
+`contracts-edge-1.0.0` is then cut from the Edge release commit, and Foundry, Nexus, Alloy, Anvil and GitForgeOps each pin
+both and release 1.0.0 (for GitForgeOps its first release, after a human acceptance run). ferrum-migration stays 0.x as a
+preview. Candidates and what each waits on: [ferrumedge.com/releases#v1-candidates](https://ferrumedge.com/releases#v1-candidates).
+
 ### Get started
 
 - **Gateway:** download a binary or pull `ferrumedge/ferrum-edge` from the
